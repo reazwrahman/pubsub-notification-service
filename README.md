@@ -34,4 +34,6 @@ This package was built to serve as a **reusable notification module** that can b
 ## 🔌 Example Usage
 Take a look at the message_publisher.py file for example usage. 
 
+![IMG_1382](https://github.com/user-attachments/assets/894ed5bb-a0a1-4c7d-a002-b4df8f526d6c)
+
 
