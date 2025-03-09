@@ -41,7 +41,7 @@ def publish(message: Message):
     subscribers = [register_email_subscribers(), register_pushover_subscribers(),
                    register_telegram_subscribers()]
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=len(subscribers)) as executor:
+    with concurrent.futures.ProcessPoolExecutor(max_workers=4) as executor:
         futures: list[concurrent.futures.Future] = [executor.submit(each.notify_subscribers, message) for each in
                                                     subscribers]
         handle_futures(futures)

@@ -1,6 +1,8 @@
 # PubSub Notification Service
 
-A simple, extensible **Pub/Sub Notification Service** that allows a single message to be published to **multiple subscribers** across different communication channels.
+A simple, extensible **Pub/Sub Notification Service** that allows a single message to be published to **multiple subscribers** across different communication channels. 
+
+The project leverages multithreading and multiprocessing to concurrently publish messages to multiple subscribers.
 
 ## ✨ Features
 
