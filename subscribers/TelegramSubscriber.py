@@ -4,7 +4,7 @@ from typing import override
 import requests
 from dotenv import load_dotenv
 
-from subscriber_interface import Registration, SubscriberInterface, Message
+from subscribers.subscriber_interface import Registration, SubscriberInterface, Message
 from utility import handle_futures
 
 load_dotenv()

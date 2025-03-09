@@ -6,7 +6,7 @@ from typing import override
 from dotenv import load_dotenv
 
 # local imports
-from subscriber_interface import SubscriberInterface, Message, Registration
+from subscribers.subscriber_interface import SubscriberInterface, Message, Registration
 from utility import handle_futures
 
 load_dotenv()
